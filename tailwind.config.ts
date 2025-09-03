@@ -18,6 +18,16 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'gradient-warm': 'var(--gradient-warm)',
+				'gradient-calm': 'var(--gradient-calm)',
+				'gradient-comfort': 'var(--gradient-comfort)',
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'warm': 'var(--shadow-warm)',
+				'glow': 'var(--shadow-glow)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +61,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				healing: {
+					warm: 'hsl(var(--healing-warm))',
+					soft: 'hsl(var(--healing-soft))',
+					calm: 'hsl(var(--healing-calm))',
+					comfort: 'hsl(var(--healing-comfort))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
